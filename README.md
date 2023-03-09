@@ -3,6 +3,7 @@
 各銀行から取得したデータをそのまま保持する.  
   
   
+  
 ◇楽天カード情報 rakuten_payout_info  
 - [x] ID rakuten_id  
 利用日 rakuten_use_date  
@@ -20,7 +21,7 @@
   
   
 ◇ゆうちょ銀行情報 yuucho_info  
-・ID yuucho_id  
+- [x] ID yuucho_id  
 取引日 yuucho_deal_date  
 入出金明細ID yuucho_detail_id  
 受け入れ金額 yuucho_deposit_money  
