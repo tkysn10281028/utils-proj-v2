@@ -54,12 +54,14 @@
   
   
   
-[概要]  
+### [概要]  
 各銀行およびカード会社のデータを共通でもって管理しやすくする.  
   
-◇銀行入金情報 bank_deposit_info  
-・銀行情報ID bank_info_id  
-・銀行区分 bank_div  
+  
+  
+#### ◇銀行入金情報 bank_deposit_info  
+- [x] 銀行情報ID bank_info_id  
+- [x] 銀行区分 bank_div  
 入金日付 deposit_date  
 入金明細No deposit_detail_no  
 入金明細名 deposit_detail_name  
