@@ -38,8 +38,8 @@
   
   
   
-◇あおぞらネット銀行情報 aozora_info  
-・ID aozora_id  
+#### ◇あおぞらネット銀行情報 aozora_info  
+- [x] ID aozora_id  
 日付 aozora_date  
 概要 aozora_overview  
 入金金額 aozora_deposit_money  
