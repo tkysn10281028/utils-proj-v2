@@ -72,9 +72,10 @@
 更新PRG update_date  
   
   
-◇銀行出金情報 bank_payout_info  
-・銀行情報ID bank_info_id  
-・銀行区分 bank_div  
+  
+#### ◇銀行出金情報 bank_payout_info  
+- [x] 銀行情報ID bank_info_id  
+- [x] 銀行区分 bank_div  
 出金日付 payout_date  
 出金明細No payout_detail_no  
 出金明細名 payout_detail_name  
@@ -85,9 +86,10 @@
 更新PRG update_date  
   
   
-◇支払予定情報 pay_plan_info  
-・支払予定情報ID  
-・会社区分   
+  
+#### ◇支払予定情報 pay_plan_info  
+- [x] 支払予定情報ID  
+- [x] 会社区分   
 利用日 date  
 支払予定明細No pay_plan_item_no  
 支払予定金額 pay_plan_money  
@@ -101,8 +103,8 @@
 更新PRG update_date  
   
   
-◇現金入金情報 cach_deposit_info  
-・ID cach_deposit_id  
+#### ◇現金入金情報 cach_deposit_info  
+- [x] ID cach_deposit_id  
 取り込み日にち capture_date  
 取り込み時間 capture_time  
 用途(自由入力) use_content  
@@ -114,8 +116,8 @@
   
   
   
-◇現金出金情報 cach_payout_info  
-・ID cach_payout_id  
+#### ◇現金出金情報 cach_payout_info  
+- [x] ID cach_payout_id  
 取り込み日にち capture_date  
 取り込み時間 capture_time  
 用途(自由入力) use_content  
@@ -126,23 +128,23 @@
 更新PRG update_date  
   
   
-[概要]  
-マスタ情報.  
+### [概要]  
+マスタ情報  
   
-◇銀行マスタ  
-・銀行区分  
+#### ◇銀行マスタ  
+- [x] 銀行区分  
 銀行名  
   
-◇カード会社マスタ  
-・会社区分  
+#### ◇カード会社マスタ  
+- [x] 会社区分  
 カード会社名  
   
   
-[概要]  
+### [概要]  
 その他  
   
-◇読み込みファイル情報 read_file_info  
-・ID read_file_id  
+#### ◇読み込みファイル情報 read_file_info  
+- [x] ID read_file_id  
 読み込み済ファイル名 already_read_file_name  
 登録日 regist_date  
 登録PRG regist_prg  
@@ -152,8 +154,8 @@
   
   
   
-★大まかな仕様  
-機能一覧  
+## 大まかな仕様  
+### 機能一覧  
   
 1,銀行情報取込バッチ  
 2,銀行入金情報及び銀行出金情報作成バッチ  
