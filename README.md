@@ -4,7 +4,7 @@
   
   
   
-##### ◇楽天カード情報 rakuten_payout_info  
+### ◇楽天カード情報 rakuten_payout_info  
 - [x] ID rakuten_id  
 利用日 rakuten_use_date  
 品目名 rakuten_item_name  
@@ -20,7 +20,7 @@
   
   
   
-##### ◇ゆうちょ銀行情報 yuucho_info  
+### ◇ゆうちょ銀行情報 yuucho_info  
 - [x] ID yuucho_id  
 取引日 yuucho_deal_date  
 入出金明細ID yuucho_detail_id  
