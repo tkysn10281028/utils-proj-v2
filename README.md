@@ -1,32 +1,20 @@
-* テーブル一覧  
+* **テーブル一覧**  
 [概要]  
 各銀行から取得したデータをそのまま保持する.  
   
 ◇楽天カード情報 rakuten_payout_info  
 [x]ID rakuten_id  
-***  
 利用日 rakuten_use_date  
-***  
 品目名 rakuten_item_name  
-***  
 回数払い rakuten_pay_count  
-***  
 利用金額 rakuten_money  
-***  
 支払月 rakuten_pay_month  
-***  
 取り込み日 capture_date  
-***  
 取り込み時間 capture_time  
-***  
 登録日 regist_date  
-***  
 登録PRG regist_prg  
-***  
 更新日 update_prg  
-***  
 更新PRG update_date  
-***  
   
   
   
