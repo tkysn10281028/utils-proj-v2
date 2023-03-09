@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE logback>
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+  <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+  <property name="logDir" value="/Applications/Eclipse_2022-03.app/Contents/workspace/utils-proj-v2/src/main/resources/logs/" />
+  <property name="fileName" value="myapplog" />
+  <property name="format1" value="%d{yyyy/MM/dd HH:mm:ss.SSS} [%-4p] [%c] %m%n" />
+ <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <fileNamePattern>${logDir}${fileName}.%d{yyyy-MM-dd}.log</fileNamePattern>
+      <maxHistory>30</maxHistory>
+    </rollingPolicy>
+    <encoder>
+      <pattern>${format1}</pattern>
+    </encoder>
+  </appender>
+    <root level="info">
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

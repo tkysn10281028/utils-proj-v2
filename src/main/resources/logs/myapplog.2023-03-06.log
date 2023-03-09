@@ -1,0 +1,30 @@
+2023/03/06 20:42:43.589 [INFO] [org.springframework.boot.SpringApplication] 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.4)
+
+
+2023/03/06 20:42:43.649 [INFO] [com.sono.myproj.UtilsProjV2Application] Starting UtilsProjV2Application using Java 17.0.2 on entakuyanoMacBook-Air.local with PID 28921 (/Applications/Eclipse_2022-03.app/Contents/workspace/utils-proj-v2/target/classes started by entakuya in /Applications/Eclipse_2022-03.app/Contents/workspace/utils-proj-v2)
+2023/03/06 20:42:43.649 [INFO] [com.sono.myproj.UtilsProjV2Application] No active profile set, falling back to 1 default profile: "default"
+2023/03/06 20:42:44.193 [WARN] [org.mybatis.spring.mapper.ClassPathMapperScanner] No MyBatis mapper was found in '[com.sono.myproj]' package. Please check your configuration.
+2023/03/06 20:42:45.204 [INFO] [org.flywaydb.core.internal.license.VersionPrinter] Flyway Community Edition 8.5.13 by Redgate
+2023/03/06 20:42:45.204 [INFO] [org.flywaydb.core.internal.license.VersionPrinter] See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023/03/06 20:42:45.204 [INFO] [org.flywaydb.core.internal.license.VersionPrinter] 
+2023/03/06 20:42:45.211 [INFO] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+2023/03/06 20:42:45.549 [INFO] [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+2023/03/06 20:42:45.592 [INFO] [org.flywaydb.core.internal.database.base.BaseDatabaseType] Database: jdbc:mysql://localhost:3306/matcher (MySQL 8.0)
+2023/03/06 20:42:45.710 [INFO] [org.flywaydb.core.internal.command.DbValidate] Successfully validated 1 migration (execution time 00:00.034s)
+2023/03/06 20:42:45.731 [INFO] [org.flywaydb.core.internal.command.DbMigrate] Current version of schema `matcher`: 1
+2023/03/06 20:42:45.734 [INFO] [org.flywaydb.core.internal.command.DbMigrate] Schema `matcher` is up to date. No migration necessary.
+2023/03/06 20:42:46.006 [INFO] [com.sono.myproj.UtilsProjV2Application] Started UtilsProjV2Application in 2.852 seconds (JVM running for 4.05)
+2023/03/06 20:42:46.012 [INFO] [com.sono.myproj.advice.MyProjectAdvice] Main Process Execution Started. : void com.sono.myproj.execute.ExecuteMainProcess.executeMainProcess(String[])
+2023/03/06 20:42:46.022 [INFO] [com.sono.myproj.advice.MyProjectAdvice] method started. : void com.sono.myproj.proc.impl.RakutenProcess.execute(String[])
+2023/03/06 20:42:46.026 [INFO] [com.sono.myproj.advice.MyProjectAdvice] method started. : void com.sono.myproj.proc.rakuten.logic.RakutenBusinessLogic.executeBusinessLogic()
+2023/03/06 20:42:46.037 [INFO] [com.sono.myproj.proc.rakuten.logic.RakutenBusinessLogic] beforeProcess started.
+2023/03/06 21:25:52.851 [WARN] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m7s185ms).
+2023/03/06 22:17:00.274 [WARN] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m7s424ms).
+2023/03/06 23:09:44.535 [WARN] [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m44s261ms).
