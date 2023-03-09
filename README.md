@@ -103,6 +103,11 @@
 更新PRG update_date  
   
   
+### [概要]  
+入力から取得した現金情報を管理する.  
+  
+  
+  
 #### ◇現金入金情報 cach_deposit_info  
 - [x] ID cach_deposit_id  
 取り込み日にち capture_date  
